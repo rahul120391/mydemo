@@ -19,6 +19,7 @@ public class Fragment4 extends Fragment
 			getActivity().getActionBar().setTitle("Fragment4");
 			System.out.println("inside system 4");
 			v=inflater.inflate(R.layout.fragment4,null);
+			System.out.print("inside 4");
 		}
 		catch(Exception e)
 		{
