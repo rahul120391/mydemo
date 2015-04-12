@@ -17,6 +17,7 @@ public class Fragment3 extends Fragment
 			getActivity().getActionBar().setTitle("Fragment3");
 			System.out.println("inside system 3");
 			v=inflater.inflate(R.layout.fragment3,null);
+			System.out.println("inside fragment 3");
 		}
 		catch(Exception e)
 		{
